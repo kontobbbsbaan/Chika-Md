@@ -9,8 +9,13 @@
 exports.menu = (botname, pushname, salam) => {
 	return`Selamat ${salam} kak ${pushname}
 
-Saya ${botname}, Bot Ini Adalah Beta Multi-Device WhatsApp.
-Jika Kamu Menemukan Semacam Bug Atau Kesalahan Mohon Dimaklumi Dulu Ya, Lapor Owner Agar Segera Di Perbaiki🙏`
+Hai kak ☺️ 
+Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
+Berapapun donasi kalian akan sangat berarti 👍
+*DONASI PULSA=62 838-4540-9710*
+
+Jangan lupa Save Nomer owner aku yah🙃
+nih kak nomer owner aku wa.me/6283845409710
 }
 
 //—————「 List 」—————//
