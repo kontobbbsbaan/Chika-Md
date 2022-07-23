@@ -2192,10 +2192,10 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
   case 'allmenu': {
   if(typemenu == 'image'){
   var kianganteng = await getBuffer(picak+'All Menu')
-  await chika.send5ButImg(from, `` + '' + lang.allmenu(prefix, pushname, botname, time, salam), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.allmenu(prefix, pushname, botname, time, salam), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Runtime","id": 'Runtime'}}] )
   }
   if(typemenu == 'gif'){
-  await chika.send5ButGif(from, `` + '' + lang.allmenu(prefix, pushname, botname, time, salam), `  © ${ownername}`,velochika, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
+  await chika.send5ButGif(from, `` + '' + lang.allmenu(prefix, pushname, botname, time, salam), `  © ${ownername}`,velochika, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Runtime","id": 'Runtime'}}] )
   }
   if(typemenu == 'catalog'){
   await chika.sendCatalog(from, 'ALL MENU', lang.allmenu(prefix, pushname, botname, time, salam), thumb, {quoted: ftroli})
@@ -2204,99 +2204,99 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
   break
   case 'botinfo':
   var kianganteng = await getBuffer(picak+'Bot Info')
-  await chika.send5ButImg(from, `` + '' + lang.botinfo(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.botinfo(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'ownermenu': case 'ownercmd':
   var kianganteng = await getBuffer(picak+'Owner Menu')
-  await chika.send5ButImg(from, `` + '' + lang.ownermenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.ownermenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'groupmenu': case 'groupcmd':
   var kianganteng = await getBuffer(picak+'Group Menu')
-  await chika.send5ButImg(from, `` + '' + lang.groupmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.groupmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'databasemenu': case 'databasecmd':
   var kianganteng = await getBuffer(picak+'Database Menu')
-  await chika.send5ButImg(from, `` + '' + lang.groupmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.groupmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'searchmenu': case 'searchcmd':
   var kianganteng = await getBuffer(picak+'Search Menu')
-  await chika.send5ButImg(from, `` + '' + lang.searchmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.searchmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'downloadermenu': case 'downloadercmd':
   var kianganteng = await getBuffer(picak+'Downloader Menu')
-  await chika.send5ButImg(from, `` + '' + lang.downloadermenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.downloadermenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'convertermenu': case 'convertercmd':
   var kianganteng = await getBuffer(picak+'Converter Menu')
-  await chika.send5ButImg(from, `` + '' + lang.convertermenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.convertermenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
  case 'textpromenu': case 'textprocmd':
   var kianganteng = await getBuffer(picak+'Textpro Menu')
-  await chika.send5ButImg(from, `` + '' + lang.textpromenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.textpromenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'photooxymenu': case 'photooxycmd':
   var kianganteng = await getBuffer(picak+'Photo Oxy Menu')
-  await chika.send5ButImg(from, `` + '' + lang.photooxymenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.photooxymenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'ephotomenu360': case 'ephoto360':
   var kianganteng = await getBuffer(picak+'Ephoto360 Menu')
-  await chika.send5ButImg(from, `` + '' + lang.ephotomenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.ephotomenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'animemenu': case 'animecmd':
   var kianganteng = await getBuffer(picak+'Anime Menu')
-  await chika.send5ButImg(from, `` + '' + lang.animemenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.animemenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'nsfwmenu': case 'nsfwcmd':
   var kianganteng = await getBuffer(picak+'Nsfw Menu')
-  await chika.send5ButImg(from, `` + '' + lang.nsfwmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.nsfwmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'gamemenu': case 'gamecmd':
   var kianganteng = await getBuffer(picak+'Game Menu')
-  await chika.send5ButImg(from, `` + '' + lang.gamemenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.gamemenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'funmenu': case 'funcmd':
   var kianganteng = await getBuffer(picak+'Fun Menu')
-  await chika.send5ButImg(from, `` + '' + lang.funmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.funmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
     case 'primbonmenu': case 'primboncmd':
   var kianganteng = await getBuffer(picak+'Primbon Menu')
-  await chika.send5ButImg(from, `` + '' + lang.primbonmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.primbonmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'cerpenmenu': case 'cerpencmd':
   var kianganteng = await getBuffer(picak+'Cerpen Menu')
-  await chika.send5ButImg(from, `` + '' + lang.cerpenmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.cerpenmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'informationmenu': case 'informationcmd':
   var kianganteng = await getBuffer(picak+'Information Menu')
-  await chika.send5ButImg(from, `` + '' + lang.informationmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.informationmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'cecanmenu': case 'cecancmd':
   var kianganteng = await getBuffer(picak+'Cecan Menu')
-  await chika.send5ButImg(from, `` + '' + lang.cecanmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.cecanmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'asupanmenu': case 'asupancmd':
   var kianganteng = await getBuffer(picak+'Asupan Menu')
-  await chika.send5ButImg(from, `` + '' + lang.asupanmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.asupanmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'islamicmenu': case 'islamiccmd':
   var kianganteng = await getBuffer(picak+'Islamic Menu')
-  await chika.send5ButImg(from, `` + '' + lang.islamicmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.islamicmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'soundmenu': case 'soundcmd':
   var kianganteng = await getBuffer(picak+'Sound Menu')
-  await chika.send5ButImg(from, `` + '' + lang.soundmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.soundmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'voicechargermenu': case 'voicechargercmd':
   var kianganteng = await getBuffer(picak+'Voice Charger Menu')
-  await chika.send5ButImg(from, `` + '' + lang.voicechargermenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.voicechargermenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'telegramstickermenu': case 'telegramstickercmd':
   var kianganteng = await getBuffer(picak+'Telegram Sticker Menu')
-  await chika.send5ButImg(from, `` + '' + lang.telegramstickermenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.telegramstickermenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'othersmenu': case 'otherscmd':
   var kianganteng = await getBuffer(picak+'Others Menu')
-  await chika.send5ButImg(from, `` + '' + lang.othersmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.othersmenu(prefix), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
   case 'donasi': case 'donate':
   var kianganteng = await getBuffer(picak+'Donasi')
@@ -2304,7 +2304,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
   break
   case 'thanksto': case 'tqto':
   var kianganteng = await getBuffer(picak+'Contributors')
-  await chika.send5ButImg(from, `` + '' + lang.thanksto(), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back To List","id": 'command'}}] )
+  await chika.send5ButImg(from, `` + '' + lang.thanksto(), `  © ${ownername}`,kianganteng, [{"urlButton": {"displayText": "𝘺𝘰𝘶𝘵𝘶𝘣𝘦 𝘰𝘸𝘯𝘦𝘳🥇","url": `${youtube}`}},{"urlButton": {"displayText": `𝘬𝘪𝘢𝘯 𝘣𝘰𝘵𝘻 🍃`,"url": `${mygc}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Back","id": 'command'}}] )
   break
 
   default:
