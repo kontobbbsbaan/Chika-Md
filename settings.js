@@ -30,7 +30,7 @@
 
   // Set Kebutuhan Button & Kontak
   //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :), note tanda ' gausah di hapus!
-  global.youtube = 'https://wa.me/message/R23F6S3OPNM4A1'
+  global.youtube = 'https://youtube.com/channel/UCVHhUd4PRoKaL79lj3qbclQ'
   global.mygc = 'https://chat.whatsapp.com/Jvm6tcY1bAE91YU7DxVBlY'
   global.myweb = 'https://wa.me/message/R23F6S3OPNM4A1'
   global.region = 'indonesia'
